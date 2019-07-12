@@ -1,0 +1,25 @@
+// import './_mixin.scss'
+// import './common.scss'
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    ul {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        .active {
+            color: #617ef6;
+            border-bottom: 2px solid #617ef6;
+        }
+    }
+}
